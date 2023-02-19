@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rebus</title>
+    <link rel="stylesheet" href="style5.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+</head>
+
+<body class="body" id="body">
+    <div class="whole_page" id="main">
+        <header class="header" id="header">
+            <ul class="header__navigation">
+                <li class="hover_links"><a href="./index_level1.html" class="header__links">Level 1</a></li>
+                <li class="hover_links"><a href="./index_level2.html" class="header__links">Level 2</a></li>
+                <li class="hover_links"><a href="./index_level3.html" class="header__links">Level 3</a></li>
+                <li class="hover_links"><a href="./index_level4.html" class="header__links">Level 4</a></li>
+                <li class="hover_links"><a href="./index_level5.html" class="header__links">Level 5</a></li>
+            </ul>
+
+        </header>
+        <main class="main">
+            <img class="main__rebus-img" src="./img/rebus5.png" alt="" id="rebus_img">
+            <input type="text" autocomplete="off" placeholder="Введіть відповідь тут!" class="main__field" id="input">
+            <input type="button" value="Check!" class="main__button" id="button" onclick="answer()">
+        </main>
+        <footer class="footer">
+            <a class="footer_href" href="./index_level4.html">
+                <div class="footer__back">
+                    <svg class="footer__arrow-back">
+                        <polyline class="arrow_back" points="60,20 20,50 60,80" />
+                    </svg>
+                    <p class="footer__text">Back</p>
+                </div>
+            </a>
+            <a class="footer_href" href="./index_level5.html">
+                <div class="footer__next">
+                    <svg class="footer__arrow-next">
+                        <polyline class="arrow_next" points="10,20 50,50 10,80" />
+                    </svg>
+                    <p class="footer__text">Next</p>
+                </div>
+            </a>
+        </footer>
+    </div>
+    <script src="script5.js"></script>
+</body>
+
+</html>
